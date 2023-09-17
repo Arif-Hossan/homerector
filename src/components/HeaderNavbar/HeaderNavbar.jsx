@@ -6,7 +6,7 @@ import "./HeaderNavbar.css";
 
 function HeaderNavbar() {
     return (
-        <Navbar collapseOnSelect expand="lg" className="transparent">
+        <Navbar collapseOnSelect expand="lg" className="fixed-top bg-light">
             <Container>
                 <Navbar.Brand href="#home">
                     <img

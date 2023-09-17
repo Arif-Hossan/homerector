@@ -1,5 +1,17 @@
 body {
   margin: 0;
-  min-width: 320px;
-  min-height: 100vh;
+}
+
+h1::after,
+h2::after,
+h3::after,
+h4::after {
+  background-color: #f78f1e;
+  content: "";
+  display: block;
+  height: 6px;
+  left: 50;
+  margin-top: 10px;
+  position: absolute;
+  width: 70px;
 }

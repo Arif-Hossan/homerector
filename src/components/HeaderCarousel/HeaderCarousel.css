@@ -1,3 +1,8 @@
 .slider-img{
-    height: 80vh;
+    height: 100vh;
+}
+@media screen and (max-width:700px) {
+    .slider-img{
+        height: 50vh;
+    }
 }
