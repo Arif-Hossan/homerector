@@ -1,6 +1,5 @@
 import { Col, Container, Row } from 'react-bootstrap';
 import './Services.css';
-
 const Services = () => {
     return (
         <Container fluid>

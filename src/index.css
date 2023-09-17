@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: #e6e6e6 !important;
 }
 
 h1::after,
@@ -13,5 +14,5 @@ h4::after {
   left: 50;
   margin-top: 10px;
   position: absolute;
-  width: 70px;
+  width: 90px;
 }
