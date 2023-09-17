@@ -1,0 +1,15 @@
+.contact-person {
+  color: #ffffff;
+  line-height: 10px;
+}
+.contact-person img{
+    filter: grayscale(1);
+}
+.contact-person img:hover{
+    filter: grayscale(0);
+}
+@media screen and (max-width:700px) {
+    .contact-person{
+        margin: 0 25%;
+    }
+}

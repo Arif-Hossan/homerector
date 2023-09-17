@@ -59,7 +59,7 @@ const Projects = () => {
           projects.
         </p>
       </div>
-      <Container className='project-sample'>
+      <Container className='project-sample' fluid>
         {imagePaths.map((image, index) => (
           <Row key={index}>
             {imagePaths.slice(index * 4, (index + 1) * 4).map((image, i) => (

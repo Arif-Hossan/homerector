@@ -1,0 +1,16 @@
+.contact{
+    background-color: #f78f1e;
+}
+.contact h2{
+    color: #ffffff;
+    text-align: center;
+}
+.contact h2::after{
+    background-color: #ffffff;
+    left: 620px;
+}
+@media screen and (max-width:700px) {
+    .contact h2::after {
+        left: 38%;
+    }
+}

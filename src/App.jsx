@@ -1,5 +1,6 @@
 import './App.css'
 import About from './components/About/About'
+import Contact from './components/Contact/Contact'
 import Customers from './components/Customers/Customers'
 import HeaderCarousel from './components/HeaderCarousel/HeaderCarousel'
 // import About from './components/About/About'
@@ -19,6 +20,7 @@ function App() {
       <Services></Services>
       <Projects></Projects>
       <Customers></Customers>
+      <Contact></Contact>
       {/* <About></About> */}
     </>
   )
