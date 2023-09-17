@@ -3,6 +3,7 @@ import About from './components/About/About'
 import HeaderCarousel from './components/HeaderCarousel/HeaderCarousel'
 // import About from './components/About/About'
 import HeaderNavbar from './components/HeaderNavbar/HeaderNavbar'
+import Services from './components/Services/Services'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <HeaderNavbar></HeaderNavbar>
       <HeaderCarousel></HeaderCarousel>
       <About></About>
+      <Services></Services>
       {/* <About></About> */}
     </>
   )
