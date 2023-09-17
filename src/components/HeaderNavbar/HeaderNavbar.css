@@ -1,0 +1,20 @@
+
+.navbar-item{
+    display: inline-block !important;
+    color: #dddddd !important;
+    font-weight: bold !important;
+    font-size: 20px !important;
+    margin-right: 20px !important;
+}
+.navbar-item:hover{
+    background-color: #f18800 !important;
+}
+@media screen and (max-width:700px) {
+    .navbar-item{
+        text-align: center;
+        font-size: 12px !important;
+        padding: 5px 0 !important;
+        margin-bottom: 2px;
+        margin-right: 0 !important;
+    }
+}
