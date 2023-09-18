@@ -48,8 +48,8 @@ const imagePaths = [
 
 const Projects = () => {
   return (
-    <div className='mb-5'>
-      <div className='projects-top'>
+    <div className='mb-5' id="projects">
+      <div className='projects-top pt-5'>
         <h2>Projects</h2>
         <p>
           We do all types of concrete work. Among our projects you will find

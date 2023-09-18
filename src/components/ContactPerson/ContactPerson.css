@@ -1,6 +1,7 @@
 .contact-person {
   color: #ffffff;
   line-height: 10px;
+  text-align: center;
 }
 .contact-person img{
     filter: grayscale(1);
@@ -10,6 +11,6 @@
 }
 @media screen and (max-width:700px) {
     .contact-person{
-        margin: 0 25%;
+        margin: 0 20%;
     }
 }

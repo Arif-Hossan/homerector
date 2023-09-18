@@ -1,7 +1,7 @@
 .services{
     background-color: #fbad58;
     max-height: 460px;
-    padding: 5% !important;
+    padding: 50px !important;
 }
 .services h4::after{
     background-color: #ffffff;

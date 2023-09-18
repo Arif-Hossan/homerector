@@ -1,7 +1,8 @@
 .about-us {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 10px 0;
+  margin: 15px 0;
+  padding: 50px 0;
   text-align: justify;
 }
 

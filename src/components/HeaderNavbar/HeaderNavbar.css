@@ -1,4 +1,7 @@
-
+.header-navbar{
+    background-color: #757171;
+    padding: 5px 0px !important;
+}
 .navbar-item{
     display: inline-block !important;
     color: #dddddd !important;

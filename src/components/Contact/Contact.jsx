@@ -11,7 +11,7 @@ const Contact = () => {
         .then(data => setMembers(data.results))
     },[])
     return (
-        <div className='pt-5 pb-5 mb-5 contact'>
+        <div className='pt-5 pb-5 contact' id="contact">
             <h2>Contact</h2>
             <Container className='mt-5'>
                 <Row>

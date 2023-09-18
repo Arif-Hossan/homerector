@@ -22,8 +22,8 @@ const imagePaths = [
 
 const Customers = () => {
     return (
-        <div className='mb-5'>
-            <div className='customers-top'>
+        <div className='mb-5' id="customers">
+            <div className='customers-top pt-5'>
                 <h2>Customers</h2>
                 <p>
                 We value close and long-term relationships with our clients, who are in a number of different industries. Here you will find both large construction companies and municipal contractor companies, but also smaller construction contractors, property owners and managers. In addition to our competence and reliability, our clients often appreciate us because we thoroughly familiarize ourselves with their projects and understand the whole.

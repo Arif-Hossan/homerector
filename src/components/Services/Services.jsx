@@ -2,7 +2,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import './Services.css';
 const Services = () => {
     return (
-        <Container fluid>
+        <Container fluid id="services">
             <Row>
                 <Col sm className='services'>
                     <h4>SAFE AND STABLE</h4>

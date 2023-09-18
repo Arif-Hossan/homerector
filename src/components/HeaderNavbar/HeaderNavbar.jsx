@@ -6,7 +6,7 @@ import "./HeaderNavbar.css";
 
 function HeaderNavbar() {
     return (
-        <Navbar collapseOnSelect expand="lg" className="fixed-top bg-light">
+        <Navbar collapseOnSelect expand="lg" className="fixed-top header-navbar">
             <Container>
                 <Navbar.Brand href="#home">
                     <img
@@ -22,11 +22,11 @@ function HeaderNavbar() {
                 <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
 
                     <Nav>
-                        <Nav.Link className='navbar-item' href="#">About us</Nav.Link>
-                        <Nav.Link className='navbar-item' href="#">Services</Nav.Link>
-                        <Nav.Link className='navbar-item' href="#">Projects</Nav.Link>
-                        <Nav.Link className='navbar-item' href="#">Customers</Nav.Link>
-                        <Nav.Link className='navbar-item' href="#">Contact</Nav.Link>
+                        <Nav.Link className='navbar-item' href="#about">About us</Nav.Link>
+                        <Nav.Link className='navbar-item' href="#services">Services</Nav.Link>
+                        <Nav.Link className='navbar-item' href="#projects">Projects</Nav.Link>
+                        <Nav.Link className='navbar-item' href="#customers">Customers</Nav.Link>
+                        <Nav.Link className='navbar-item' href="#contact">Contact</Nav.Link>
 
 
                     </Nav>

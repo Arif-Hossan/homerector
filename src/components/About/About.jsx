@@ -1,10 +1,8 @@
-// import React from 'react';
-// import { Col, Container, Row } from 'react-bootstrap';
 import { Container } from 'react-bootstrap';
 import './About.css';
 const About = () => {
     return (
-        <Container className="ct">
+        <Container className="ct" id="about" >
             <div className='about-us'>
             <div>
                 <h1>About Us</h1>
