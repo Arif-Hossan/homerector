@@ -1,20 +1,33 @@
 .projects-top{
     padding: 5% 5%;
     text-align: center;
+   
 }
 .projects-top p{
     margin-top: 30px;
 }
 .projects-top h2::after{
-    left: 618px;
+    /* position: absolute; */
+   left: 46%;
 }
 .project-sample img{
     height: 250px;
     width: 100%;
     margin-bottom: 25px;
+    object-fit: cover;
 }
 @media screen and (max-width:700px) {
     .projects-top h2::after {
         left: 38%;
+    }
+}
+@media screen and (min-width:1300px) {
+    .projects-top h2::after {
+        left: 47%;
+    }
+}
+@media screen and (min-width:2050px) {
+    .projects-top h2::after {
+        left: 48%;
     }
 }
